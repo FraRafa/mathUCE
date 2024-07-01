@@ -1,0 +1,11 @@
+#ec_cuadratica
+print('Ingrese el valor de la variable "a"')
+a=float(input())
+print('Ingrese el valor de la variable "b"')
+b=float(input())
+print('Ingrese el valor de la variable "c"')
+c=float(input())
+x1=(-b+(b**2-4*a*c)**0.5)/(2*a)
+x2=(-b-(b**2-4*a*c)**0.5)/(2*a)
+print('El valor de x1 es: ', x1)
+print('El valor de x2 es: ', x2)

@@ -1,0 +1,10 @@
+#Ajuste
+print("Programa ajuste, los valores deben estar entre 0 y 1")
+print('Ingrese el valor de x')
+x=float(input())
+print('Ingrese el valor de w')
+w=float(input())
+print('Ingrese el valor de z')
+z=float(input())
+R=((((0.08*x)/(0.004*w))+(1.5*z))**(0.2))
+print('El valor de R es:',R)
